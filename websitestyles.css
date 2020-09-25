@@ -76,3 +76,5 @@ a:hover{color:#FFFFFF}
 @media only screen and (max-width:600px) {.sidenav{position:static;width:80%;margin:auto}}
 
 .banner{border:double 3px #E0C8FF;background:#30007C;padding:15px;color:#E0C8FF;text-align:center}
+
+.picture{width:30%;height:auto;display:block;margin-left:auto;margin-right:auto;border:solid 3px #AA73EC}
