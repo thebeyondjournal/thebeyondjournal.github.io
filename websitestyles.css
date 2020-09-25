@@ -27,25 +27,38 @@ a:hover{color:#FFFFFF}
 
 .article-box{background:#FFF0ED;margin:15px;padding:10px;border:solid 5px #EFE0DD;margin-left:10%;margin-right:10%}
 
-.article-text{font-size:11pt;font-family:lucida console;color:#000000;vertical-align:text-center}
+.article-text{font-size:11pt;font-family:courier new;color:#000000;vertical-align:text-center}
 
 
-.transcript-box{background:#FFF0ED;width:65%;padding:10px;border:solid 5px #EFE0DD;margin-left:15%;}
+.transcript-box{background:#FFF0ED;width:65%;padding:40px;border:solid 5px #EFE0DD;margin:auto;font-family:courier new;color:#000000;vertical-align:text-center}
 
-.t-t{font-size:11pt;margin-top:0px;font-family:lucida console;color:#000000;vertical-align:text-center}
+.post-nav {margin:0;display:flex;justify-content:space-between;font-size:10pt}
+.post-nav .previous {text-align:left;margin-right:0.4rem;margin:0;width:50%}
+.post-nav .next {text-align:right;margin-left:0.4rem;margin:0;width:50%}
 
-.t-h{font-size:11pt;margin-top:30px;font-weight:bold;font-family:lucida console;color:#000000;vertical-align:text-center}
+.post-text {margin:0;display:flex;justify-content:space-between;font-size:12pt}
+.post-text .previous {text-align:left;margin-right:0.4rem;margin:0;width:50%}
+.post-text .next {text-align:right;margin-left:0.4rem;margin:0;width:50%}
+
+.t-t{font-size:12pt;margin:5%;margin-top:0px;font-family:courier new;color:#000000;vertical-align:text-center}
+
+.t-h{font-size:12pt;margin-top:30px;font-weight:bold}
+
+.t-c{text-align:center;font-size:16pt;font-weight:bold;margin:10px}
+
+.t-d{text-align:center;font-size:10pt}
+
 
 .t-sidenav{position:absolute;width:10%;right:0px;border:double 3px #E0C8FF;background:#000;padding:15px;color:#AA73EC;text-align:right}
 @media only screen and (max-width:600px) {.t-sidenav{position:static;width:80%;margin:10px 10px 20px 0:right:10px}}
 
 
-.episode-box{background:#FFF0ED;margin:10px;border:solid 3px #EFE0DD;width:55%;margin-left:10%;color:#000000}
+.episode-box{background:#FFF0ED;margin:10px;padding:5px;border:solid 3px #EFE0DD;width:55%;margin-left:10%;color:#000000}
 @media only screen and (max-width:600px) {.episode-box{position:static;width:80%;margin:auto;margin-top:10px}}
 
-.episode-text{font-size:11pt;font-family:lucida console;margin:15px 10px 5px 10px;color:#000000;margin-left:5%}
+.episode-text{font-size:11pt;font-family:courier new;margin:15px 10px 5px 10px;color:#000000;margin-left:5%}
 
-.transcript-link{font-size:8pt;font-family:lucida console;margin:0 10px 10px 10px;color:#000000;margin-left:7%}
+.transcript-link{font-size:8pt;font-family:courier new;margin:0 10px 10px 10px;color:#000000;margin-left:7%}
 
 
 .top-box{background:url(backer4.png) center;border:double 3px #E0C8FF;color:#AA73EC}
