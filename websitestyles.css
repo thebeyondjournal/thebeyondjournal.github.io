@@ -31,6 +31,7 @@ a:hover{color:#FFFFFF}
 
 
 .transcript-box{background:#FFF0ED;width:65%;padding:40px;border:solid 5px #EFE0DD;margin:auto;font-family:courier new;color:#000000;vertical-align:text-center}
+@media only screen and (max-width:600px) {.transcript-box{padding:5px;width:95%}}
 
 .post-nav {margin:0;display:flex;justify-content:space-between;font-size:10pt}
 .post-nav .previous {text-align:left;margin-right:0.4rem;margin:0;width:50%}
