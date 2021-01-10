@@ -22,6 +22,8 @@ a:hover{color:#FFFFFF}
 
 .h5{font-size:12pt;margin:15px;text-align:left;color:#30007C}
 
+.h6{font-size:14pt;text-align:left;}
+
 .body-text{font-size:12pt;margin:30px;margin-left:10%;margin-right:10%;text-align:left}
 
 
@@ -80,6 +82,7 @@ a:hover{color:#FFFFFF}
 
 .picture{width:30%;height:auto;display:block;margin-left:auto;margin-right:auto;border:solid 3px #AA73EC}
 
+.xpicture{width:80%;height:auto;display:block;margin-left:auto;margin-right:auto;}
 
 TABLE.datadisplaytable {border-bottom: 0px solid;border-left: 0px solid;border-right: 0px solid;border-top: 0px solid;}
 .captiontext {font-weight: bold;font-size: 90%; font-style: italic; text-align: left;margin-top: 1em;}
